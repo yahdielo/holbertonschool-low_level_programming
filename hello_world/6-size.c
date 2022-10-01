@@ -9,8 +9,9 @@ int main(void)
 	int i;
 	long int li;
 	long long int lli;
-	float f; 
-	printf("The size of a char is: %lu.\n", (unsigned long)sizeof(c));
+	float f;
+
+	printf("The size of a char is: %lu byte(s)\n", (unsigned long)sizeof(c));
 	printf("The size of an int is: %lu.\n", (unsigned long)sizeof(i));
 	printf("The size of a long int is: %lu.\n", (unsigned long)sizeof(li));
 	printf("The size of a long long int is: %lu.\n", (unsigned long)sizeof(lli));
