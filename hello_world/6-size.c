@@ -11,10 +11,10 @@ int main(void)
 	long long int li;
 	float f;
 
-	printf("size of a char is: %lu byte(s)\n",sizeof(c));
-	printf("size of an int is: %lu byte(s)\n",sizeof(i));
-	printf("size of a long int is: %lu byte(s)\n",sizeof(l));
-	printf("size of a long long int is: %lu byte(s)\n",sizeof(li));
-	printf("size of a float is: %lu byte(s)\n",sizeof(f));
+	printf("size of a char: %lu byte(s)\n", sizeof(c));
+	printf("size of an int: %lu byte(s)\n", sizeof(i));
+	printf("size of a long int: %lu byte(s)\n", sizeof(l));
+	printf("size of a long long int: %lu byte(s)\n", sizeof(li));
+	printf("size of a float: %lu byte(s)\n", sizeof(f));
 	return (0);
 }
