@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - Print alphabet in reverse
  * Return: Always 0 (Success)
  */
