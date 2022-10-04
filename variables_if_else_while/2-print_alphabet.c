@@ -8,13 +8,13 @@
 int main(void)
 {
 	/* declare variable */
-	char ch = 'a' ;
+	char ch = 'a';
 
-	while(ch <= 'z')
+	while (ch <= 'z\n')
 	{
 	putchar(ch);
 	ch++;
 	}
 
-	return(0);
+	return (0);
 }
