@@ -9,11 +9,12 @@ int main(void)
 
 	for (i = '0'; i <= '9'; i++)
 	{
-		if(i == 9)
-			break;
-		putchar(i);
+		putchar((i % 10) + '0';
+		if (num == 9)
+			continue;
+
 		putchar(',');
-		putchar(' ');
+		putchar(' ';
 	}
 
 	putchar('\n');
