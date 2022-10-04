@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there */
-
-/* main - print if n is positive or negative */
+/**
+ * main - print if n is positive or negative
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
