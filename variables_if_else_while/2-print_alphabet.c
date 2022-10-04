@@ -10,9 +10,9 @@ int main(void)
 	/* declare variable */
 	char ch = 'a';
 
-	while (ch <= 'z\n')
+	while (ch <= 'z')
 	{
-	putchar(ch);
+	putchar(ch );
 	ch++;
 	}
 
