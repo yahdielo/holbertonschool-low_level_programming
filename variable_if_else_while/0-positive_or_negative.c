@@ -3,7 +3,7 @@
 #include <time.h>
 /* Return: Always 0 ()Success*/
 
-/* main - return if n is positive or negative */
+/* main - return if var n is positive or negative */
 int main(void)
 {
 	int n;
