@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * main - print if var digit and determined size
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
@@ -17,13 +18,13 @@ int main(void)
 
 	if (digit > 5)
 	{
-	printf("Last digit of %d is %d and is  greater than 5\n",n , digit);
+	printf("Last digit of %d is %d and is greater than 5\n", n , digit);
 	}
-	else if ( digit == 0)
+	else if (digit == 0)
 	{
 	printf("Last digit of %d is %d and is 0\n", n, digit);
 	}
-	else if ( digit < 6 || digit != 0)
+	else if (digit < 6 || digit != 0)
 	{
 	printf("Last digit of %d is %d and is less than 6 and not 0\n", n, digit);
 	}
