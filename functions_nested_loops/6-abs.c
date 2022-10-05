@@ -10,6 +10,6 @@ int _abs(int x)
 	{
 		x = (-1) * x;
 	}
-	_putchar(x);
-	return (0);
+
+	return (x);
 }
