@@ -5,7 +5,7 @@
  */
 void print_alphabet_x10(void)
 {
-	int times = 10, i;
+	int times = 9, i;
 	char al;
 
 	/*loop conditions */
