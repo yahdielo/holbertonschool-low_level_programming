@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  *times_table - print table of 9
  *
