@@ -20,6 +20,6 @@ oclean:
 fclean:
 	$(RM) $(NAME) $(OBJ)
 
-re:
+re: $(OBJ)
 	$(CC) -f $(OBJ) $(NAME)
 
