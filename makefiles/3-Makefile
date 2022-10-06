@@ -14,12 +14,11 @@ clean:
 
 
 oclean:
-	$(RM) $(OBJ)
+	$(RM) $(OBJ) $(NAME)
 
 
 fclean:
-	$(RM) $(NAME) 
-	$(RM) $(OBJ)
+	$(RM) $(NAME) $(OBJ)
 
 re:
 	$(RM) -f $(OBJ) $(NAME)
