@@ -1,15 +1,16 @@
 #include "main.h"
 /**
  *print_last_digit - print las digit
- *@r: returns las digit
+ *@d: returns las digit
  * Return: Always 0 (Success)
  */
-int print_last_digit(int r)
+int print_last_digit(int d)
 {
-	r = r % 10;
 
-	_putchar('0' + r);
+	d = d % 10;
+	
+	_putchar('0' + d);
 
-	return (r);
+	return (d);
 	_putchar('\n');
 }
