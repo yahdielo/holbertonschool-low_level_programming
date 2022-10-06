@@ -1,5 +1,5 @@
 /**
- *print_last_digit - print las digit
+ *times_table - print table of 9
  *
  * Return: Always 0 (Success)
  */
@@ -9,7 +9,7 @@ void times_table(void)
 	
 	for (n = 0; n <= 9; n++)
 	{
-		_puthar(n);
+		_putchar('0');
 		
 		for (m = 1; m <= 9; m++)
 		{
