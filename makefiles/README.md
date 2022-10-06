@@ -1,1 +1,3 @@
-# 0x1B.c
+# readme
+
+* creat your first make file
