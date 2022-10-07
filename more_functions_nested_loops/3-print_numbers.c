@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * mul - multiplys 2 integers aand b
- *@a: functions multiplys 2 ints
- *@b: secodn varibale to be multiply by a
+ * print_numbers - print numbers from 0 to 9
  * Return: Always 0 (Success)
  */
 void print_numbers(void)
