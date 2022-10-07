@@ -1,3 +1,5 @@
+#include "main.h"
+#include <stdio.h>
 /**
  * print_line - print a line in terminal
  *@n: is the numer od times _ will be printed
