@@ -6,20 +6,16 @@
 */
 void more_numbers(void)
 {
-	int times;
-	int count;
+	int count, times;
 
-	/*loop conditions*/
 	for (times = 0; times <= 9; times++)
 	{
 		for (count = 0; count <= 14; count++)
 		{
 			if (count > 9)
-			{
 				putchar((count / 10) + '0');
 			putchar((count % 10) + '0');
-			}
 		}
-	putchar('\n');
+		putchar('\n');
 	}
 }
