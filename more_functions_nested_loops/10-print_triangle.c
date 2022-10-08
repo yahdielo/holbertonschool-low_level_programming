@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include "main.h"
 /**
  * print_triangle - print a diagonal lines
  *@size: size of the triangle
