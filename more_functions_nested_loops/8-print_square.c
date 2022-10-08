@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 /**
  * main - check the code
  *
@@ -9,7 +9,7 @@ void print_square(int size)
 {
 	int i;
 
-	if  (size <= 0)
+	if  (size < 0)
 	{
 		putchar('\n');
 	}
