@@ -5,7 +5,7 @@
  *@n: functions multiplys 2 ints
  * Return: Always 0 (Success)
  */
-int print_diagonal(int n)
+void print_diagonal(int n)
 {
 	int i, j;
 
