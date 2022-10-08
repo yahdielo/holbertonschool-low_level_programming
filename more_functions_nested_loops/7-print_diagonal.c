@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 /**
  * print_diagonal - print a diagonal lines
  *@n: functions multiplys 2 ints
