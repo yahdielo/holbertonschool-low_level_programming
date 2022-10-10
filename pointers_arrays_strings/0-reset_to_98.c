@@ -1,9 +1,10 @@
 #include "main.h"
 void reset_to_98(int *n)
 {
-	p = &n;
+	int nv = *n;
+	
+	nv = 98;
 
-	*p = 98;
-
-	_putchar('*P');
+	_putchar(nv);
 }
+
