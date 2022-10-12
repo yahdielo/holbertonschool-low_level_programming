@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _rev_string - find lenght of a string and reverse.
+ * rev_string - find lenght of a string and reverse.
  * @s: string to find the lenght.
  * Return: the lenght of a string.
  */
