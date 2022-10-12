@@ -3,9 +3,6 @@
 /**
  * _strlen - find lenght of a string.
  * @s: string to find the lenght.
- *
- * print_rev - print string in reverse
- * @s: string to reverse
  * Return: string in reverse
  */
 int _strlen(char *s)
@@ -17,11 +14,16 @@ int _strlen(char *s)
 
 	return (counter);
 }
-
+/**
+ * print_rev - print string in reverse
+ * @s: reverse to be reverse
+ * Return: String in reverse
+ */
 void print_rev(char *s)
 {
 	int reverse;
 	int len;
+
 	len =  _strlen(s);
 
 	for (reverse = len - 1; reverse >= 0 ; reverse--)
