@@ -3,7 +3,6 @@
 /**
  * _strlen - find lenght of a string.
  * @s: string to find the lenght.
- * Return: the lenght of a string.
  *
  * print_rev - print string in reverse
  * @s: string to reverse
