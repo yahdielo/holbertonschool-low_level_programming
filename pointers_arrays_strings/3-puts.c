@@ -8,7 +8,7 @@ void _puts(char *str)
 {
 	int  read;
 
-	for (read = 0; str[read] != '\0';read++)
+	for (read = 0; str[read] != '\0'; read++)
 	{
 		putchar(str[read]);
 	}
