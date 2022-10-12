@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * swap_int - swap values of variables.
  * @a: value of a swap to b.

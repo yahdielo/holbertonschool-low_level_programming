@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * _puts - function that prints a string
  * @str: pointer to a sting that should be printed
@@ -10,8 +10,8 @@ void _puts(char *str)
 
 	for (read = 0; str[read] != '\0'; read++)
 	{
-		putchar(str[read]);
+		_putchar(str[read]);
 	}
 
-	putchar('\n');
+	_putchar('\n');
 }
