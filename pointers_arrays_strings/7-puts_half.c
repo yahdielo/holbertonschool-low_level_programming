@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- * swap_int - swap values of variables.
- * @a: value of a swap to b.
- * @b: value of b swap to a.
- * Return:
+ * puts_half - swap values of variables.
+ * @str: value of string to divide.
+ * Return: half a string
  */
 void puts_half(char *str)
 {
