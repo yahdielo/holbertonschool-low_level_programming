@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strlen - find lenght of a string.
+ * _rev_string - find lenght of a string and reverse.
  * @s: string to find the lenght.
  * Return: the lenght of a string.
  */
@@ -16,12 +16,12 @@ void rev_string(char *s)
 		l++;
 	}
 
-	for (reverse = l -1; reverse > zero;)
+	for (reverse = l - 1; reverse > zero;)
 	{
 		temp = s[zero];
 		s[zero] = s[reverse];
 		s[reverse] = temp;
-		
+
 		zero++;
 		reverse--;
 	}
