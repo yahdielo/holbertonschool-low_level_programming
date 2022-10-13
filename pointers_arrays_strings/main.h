@@ -8,3 +8,6 @@ void rev_string(char *s);
 void puts2(char *str);
 void puts_half(char *str);
 void print_array(int *a, int n);
+
+/* 2nd project prototypes*/
+char *_strcat(char *dest, char *src);
