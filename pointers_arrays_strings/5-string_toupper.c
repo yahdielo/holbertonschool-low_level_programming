@@ -2,6 +2,7 @@
 /**
  * string_toupper - print lower case to upper case
  * @s: given string
+ * Return: all lower case to upper case
  */
 char *string_toupper(char *s)
 {
