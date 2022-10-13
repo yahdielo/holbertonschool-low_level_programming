@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * _strcpy - copies the string pointed
+ * _strncpy - copies the string pointed
  * @dest: destination
  * @src: source
+ * @n: character lenght of array
  * Return: destination
  */
 char *_strncpy(char *dest, char *src, int n)
