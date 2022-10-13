@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_rev - print a string in reverse
+ * string_toupper - print lower case to upper case
  * @s: given string
  */
 char *string_toupper(char *s)
