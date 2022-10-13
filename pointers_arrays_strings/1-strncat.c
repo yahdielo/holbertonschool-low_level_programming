@@ -3,6 +3,7 @@
  * *_strcat - concatnate 2 arrays together
  * @dest: first array
  * @src: second array.
+ * @n: numbers of char in the array
  * Return: addition of the values of 2 arrays.
  */
 char *_strncat(char *dest, char *src, int n)
@@ -15,7 +16,7 @@ char *_strncat(char *dest, char *src, int n)
 		i++;
 	}
 
-	for (j = 0; j < n && src[j] != '\0';j++)
+	for (j = 0; j < n && src[j] != '\0'; j++)
 	{
 		dest[i + j] = src[j];
 	}
