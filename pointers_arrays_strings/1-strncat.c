@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *_strcat - concatnate 2 arrays together
+ * *_strncat - concatnate 2 arrays together
  * @dest: first array
  * @src: second array.
  * @n: numbers of char in the array
