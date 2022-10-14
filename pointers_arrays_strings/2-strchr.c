@@ -1,25 +1,22 @@
 #include "main.h"
 /**
- * _strncpy - copies the string pointed
- * @dest: destination
- * @src: source
- * @n: character lenght of array
- * Return: destination
+ * _strchr - find character with in a string
+ * @s: pointer to string store in array
+ * @c: value in string to display
+ * Return: display specific velue in the string
  */
-char *strch(char *s, char c)
+char *_strchr(char *s, char c)
 {
-	 int i;
+	 unsigned int i;
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; *s != '\0';)
 	{
-		if (s[i] == c)
+		if (*s == c)
 		{
-			return (s);
+			return (s + i);
 		}
-		else
-		{
-			return ('\0');
-		}
+
+		s++;
 	}
 	return (0);
 }
