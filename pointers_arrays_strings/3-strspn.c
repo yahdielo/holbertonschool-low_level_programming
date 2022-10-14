@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strchr - find character with in a string
- * @s: pointer to string store in array
- * @c: value in string to display
- * Return: display specific velue in the string
+ * _strspn - find character with in a string
+ * @s: pointer to s bytes
+ * @accept: bytes to compare with s
+ * Return: return number bytes found in 8s same as in accept
  */
 unsigned int _strspn(char *s, char *accept)
 {
