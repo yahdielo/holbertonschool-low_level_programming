@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _strncpy - copies the string pointed
- * @dest: destination
- * @src: source
- * @n: character lenght of array
- * Return: destination
+ * _memcpy - copie content of array from one side to ther
+ * @dest: cpy chars to
+ * @src: char to be cpy from
+ * @n: number of characters to be copied
+ * Return: content of src in to dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
