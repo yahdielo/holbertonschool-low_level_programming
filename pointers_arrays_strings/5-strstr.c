@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _strspn - find character with in a string
- * @s: pointer to s bytes
- * @accept: bytes to compare with s
+ * _strstr - find first ocurrence of substring
+ * @haystack: string to examine
+ * @needle: find wat byte is equal to haystack
  * Return: return number bytes found in 8s same as in accept
  */
 char *_strstr(char *haystack, char *needle)
@@ -14,9 +14,15 @@ char *_strstr(char *haystack, char *needle)
 		for (j = 0; needle[j] != '\0'; j++)
 		{
 			if (haystack[i] == needle[j])
+				{
+					return (needle);
+				}
+
+			if (needle[j] == '\0')
 			{
 				return (needle);
 			}
+
 		}
 	}
 	return (0);
