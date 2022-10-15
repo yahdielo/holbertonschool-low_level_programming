@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strspn - gets the length of a prefix substring
- * @s: string
- * @accept: variablei
- * Return: number of bytes form accept
+ * _strpbrk - gets bytes share by s & accept
+ * @s: pointer ti string s
+ * @accept: pointer to tring 2
+ * Return: bytes share by accepts and s
  */
 char *_strpbrk(char *s, char *accept)
 {
