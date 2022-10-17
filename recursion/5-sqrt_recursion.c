@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * factorial - returns the factorial of a given number
+ * find_squareroot - returns the factorial of a given number
  * @n: given number
- * Return: factorial given number
+ * @root: root of var n
+ * Return: the root
  */
 int find_square_root(int root, int n);
 
@@ -20,7 +21,12 @@ int find_square_root(int root, int n)
 	}
 	return(root);
 }
-
+/**
+ * find_squareroot - returns the factorial of a given number
+ * @n: given number
+ * Return: the root
+ */
+int fi
 int _sqrt_recursion(int n)
 {
 	return (find_square_root (0, n));
