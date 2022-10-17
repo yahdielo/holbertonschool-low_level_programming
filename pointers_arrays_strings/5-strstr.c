@@ -22,11 +22,6 @@ char *_strstr(char *haystack, char *needle)
 			{
 				return (haystack + i);
 			}
-
-			if (haystack[i + j] != needle[j])
-				{
-					break;
-				}
 		}
 	}
 	return (0);
