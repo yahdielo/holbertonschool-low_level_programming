@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * find_squareroot - returns the factorial of a given number
+ * find_root - returns the factorial of a given number
  * @n: given number
  * @root: root of var n
  * Return: the root
  */
 int find_square_root(int root, int n);
 
-int find_square_root(int root, int n)
+int find_root(int root, int n)
 {
 	int perfect_square = root * root;
 
@@ -17,12 +17,12 @@ int find_square_root(int root, int n)
 	}
 	else if (perfect_square > n)
 	{
-		return(-1);
+		return (-1);
 	}
-	return(root);
+	return (root);
 }
 /**
- * find_squareroot - returns the factorial of a given number
+ * _sqrt_recursion - returns the factorial of a given number
  * @n: given number
  * Return: the root
  */
