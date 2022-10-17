@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * factorial - returns the factorial of a given number
- * @n: given number
- * Return: factorial given number
+ * _pow_recursion - returns the factorial of a given number
+ * @x: given number
+ * @y: raise x to the power of y
+ * Return: x to the power of why
  */
 int _pow_recursion(int x, int y)
 {
@@ -16,11 +17,11 @@ int _pow_recursion(int x, int y)
 	}
 	else if (y % 2 == 0)
 	{
-		return _pow_recursion(x, y/ 2) * _pow_recursion(x, y / 2);
+		return _pow_recursion(x, y / 2) * _pow_recursion(x, y / 2);
 	}
-	else 
+	else
 	{
-		return x * _pow_recursion(x, y / 2) * _pow_recursion(x, y / 2);
+		return (x * _pow_recursion(x, y / 2) * _pow_recursion(x, y / 2));
 	}
 	return (0);
 }
