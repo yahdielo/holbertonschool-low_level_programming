@@ -13,7 +13,7 @@ int find_root(int root, int n)
 
 	if (perfect_square < n)
 	{
-		return (find_root (root + 1, n));
+		return (find_root(root + 1, n));
 	}
 	else if (perfect_square > n)
 	{
@@ -28,5 +28,5 @@ int find_root(int root, int n)
  */
 int _sqrt_recursion(int n)
 {
-	return (find_root (0, n));
+	return (find_root(0, n));
 }
