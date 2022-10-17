@@ -5,7 +5,7 @@
  * @root: root of var n
  * Return: the root
  */
-int find_square_root(int root, int n);
+int find_root(int root, int n);
 
 int find_root(int root, int n)
 {
@@ -13,7 +13,7 @@ int find_root(int root, int n)
 
 	if (perfect_square < n)
 	{
-		return (find_square_root (root + 1, n));
+		return (find_root (root + 1, n));
 	}
 	else if (perfect_square > n)
 	{
