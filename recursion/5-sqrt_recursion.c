@@ -28,5 +28,5 @@ int find_root(int root, int n)
  */
 int _sqrt_recursion(int n)
 {
-	return (find_square_root (0, n));
+	return (find_root (0, n));
 }
