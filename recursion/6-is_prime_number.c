@@ -14,10 +14,10 @@ int is_prime_number(int n)
 		return (0);
 	}
 
-	if (n == 0)
+	if (n <= 0)
 	{
 		return (0);
-	}	
+	}
 
 	/*cheking if number is prime*/
 	if (n == i)
@@ -30,9 +30,9 @@ int is_prime_number(int n)
 	{
 		return (0);
 	}
-	else 
+	else
 	{
 	i++;
-	return is_prime_number(n);
+	return (is_prime_number(n));
 	}
 }
