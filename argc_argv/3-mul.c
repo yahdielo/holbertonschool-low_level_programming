@@ -8,12 +8,12 @@
  */
 int main(int __attribute__((unused)) argc, char *argv[])
 {
-	int a, b, mul; 
+	int a, b, mul;
 
-	      if (argc != 3)
+	if (argc != 3)
         {
-                printf("Error\n");
-                return (1);
+		printf("Error\n");
+		return (1);
         }
 
 	a = atoi(argv[1]);
