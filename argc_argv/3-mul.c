@@ -17,9 +17,10 @@ int main(int __attribute__((unused)) argc, char *argv[])
 
 	printf("%d\n", mul);
 
-	if (*argv[] != *argv[2])
+	if (argc == 1)
 	{
-		return(Error);
+		printf("Error");
+		return (1);
 	}
 
 	return (0);
