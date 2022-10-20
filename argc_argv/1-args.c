@@ -5,11 +5,11 @@
  * @argv: argument vector
  * Return: number of arguments  to the program
  */
-int main(int arc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 
-	for (i = 0; i < argc; i+=)
+	for (i = 0; i < argc; i++)
 	{
 		/*prnt all arguments*/
 		printf("%s", argv[i]);
