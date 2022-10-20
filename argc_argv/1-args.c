@@ -15,4 +15,5 @@ int main(int argc, char *argv[])
 		printf("%s", argv[i]);
 	}
 	printf("\n");
+	return (0);
 }
