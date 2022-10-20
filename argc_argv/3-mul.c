@@ -12,7 +12,7 @@ int main(int __attribute__((unused)) argc, char *argv[])
 
 	      if (argc != 3)
         {
-                printf("Error");
+                printf("Error\n");
                 return (1);
         }
 
