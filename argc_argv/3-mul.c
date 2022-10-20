@@ -6,20 +6,20 @@
  * @argc: argument constant
  * Return: return sum of two intergers
  */
-int main(int argc, char *argv[])
+int main(int __attribute__((unused)) argc, char *argv[])
 {
-	int a, b, mul;
+	int a, b, mul; 
+
+	      if (argc != 3)
+        {
+                printf("Error");
+                return (1);
+        }
 
 	a = atoi(argv[1]);
 	b = atoi(argv[2]);
 
 	mul = a * b;
-
-	if (argc == 1)
-	{
-		printf("Error");
-		return (1);
-	}
 
 	printf("%d\n", mul);
 
