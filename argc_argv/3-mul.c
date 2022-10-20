@@ -15,7 +15,7 @@ int main(int __attribute__((unused)) argc, char *argv[])
 
 	mul = a * b;
 
-	printf("%d", mul);
+	printf("%d\n", mul);
 
 	return (0);
 }
