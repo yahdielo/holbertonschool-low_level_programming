@@ -6,7 +6,7 @@
  * @argc: argument constant
  * Return: return sum of two intergers
  */
-int main(int __attribute__((unused)) argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int a, b, mul;
 
@@ -15,13 +15,14 @@ int main(int __attribute__((unused)) argc, char *argv[])
 
 	mul = a * b;
 
-	printf("%d\n", mul);
-
-	if (argc < 1)
+	if (argc == 1)
 	{
 		printf("Error");
 		return (1);
 	}
+
+	printf("%d\n", mul);
+
 
 	return (0);
 }
