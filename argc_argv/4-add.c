@@ -8,12 +8,21 @@
  */
 int main(int argc, char *argv[])
 {
-	int i = 0, add;
+	int i, add;
+	char alpha;
 
 	for (i = 0; i < argc; i++)
 	{
 		add += atoi(argv[i]);
-		printf ("%d\n", add);
 	}
+
+	for(alpha = 'a'; alpha <= 'z'; alpha++)
+	{
+		while (argv[i] == alpha)
+		{
+			printf("Error");
+		}
+	}
+	printf ("%d\n", add);
 	return (0);
 }
