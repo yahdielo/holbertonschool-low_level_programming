@@ -9,7 +9,6 @@
 int main(int argc, char *argv[])
 {
 	int i, add;
-	char alpha;
 
 	for (i = 0; i < argc; i++)
 	{
