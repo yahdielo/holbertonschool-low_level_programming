@@ -15,14 +15,6 @@ int main(int argc, char *argv[])
 	{
 		add += atoi(argv[i]);
 	}
-
-	for(alpha = 'a'; alpha <= 'z'; alpha++)
-	{
-		while (argv[i] == alpha)
-		{
-			printf("Error");
-		}
-	}
 	printf ("%d\n", add);
 	return (0);
 }
