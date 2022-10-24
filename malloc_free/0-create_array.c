@@ -20,7 +20,13 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	}
 
-	/*run inside the array with i & subtitud with value c*/
+	/*check if malloc is not null*/
+	if (p == NULL)
+	{
+		return (NULL);
+	}
+
+	/*run inside the array with i then subtitud with value c*/
 	for (i = 0; i < size; i++)
 	{
 		p[i] = c;
