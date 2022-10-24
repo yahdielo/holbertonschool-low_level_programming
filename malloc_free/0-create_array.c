@@ -4,7 +4,7 @@
  * create_array - creat array with value allocation of specific data type
  * @size: size of array
  * @c: value to allocate inside array
- * Return: a pointer to the array. 
+ * Return: a pointer to the array.
  *
  */
 char *create_array(unsigned int size, char c)
