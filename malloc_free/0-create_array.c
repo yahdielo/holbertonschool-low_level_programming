@@ -20,12 +20,6 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	}
 
-	/* return null if address to pointer is null*/
-	if (*p == '\0')
-	{
-		return (NULL);
-	}
-
 	/*run inside the array with i & subtitud with value c*/
 	for (i = 0; i < size; i++)
 	{
