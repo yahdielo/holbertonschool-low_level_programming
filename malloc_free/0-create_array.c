@@ -21,7 +21,7 @@ char *create_array(unsigned int size, char c)
 	}
 
 	/* return null if address to pointer is null*/
-	if (p == '\0')
+	if (*p == '\0')
 	{
 		return (NULL);
 	}
