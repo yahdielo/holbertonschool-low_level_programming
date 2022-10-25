@@ -16,20 +16,21 @@ char *_strdup(char *str)
 	/* if str is null return null*/
 	if (str == NULL)
 	{
-		printf("failed to allocate memory");
 		return (NULL);
 	}
 	/* variable runs inside array of chars str*/
-	for (i = 0; str[i] != '\0'; i++)
+	for (i = 0; str[i] != '\0';)
 	{
+		i++;
 	}
-
+	/* if j is less than size then increment*/
+	/*then store index j in str to copy*/
 	for (j = 0; j < size; j++)
 	{
 		copy[j] = str[j];
 	}
 
-	while (copy == NULL)
+	if (copy == NULL)
 	{
 		return (NULL);
 	}
