@@ -2,9 +2,9 @@
 #include <string.h>
 #include "main.h"
 /**
- * _strdup - function to get copy string
- * @str: string to get the copy with amlloc
- * Return: a pointer to copy string in memory
+ * _strdup - function to get copy string.
+ * @str: string to get the copy with amlloc.
+ * Return: a pointer to copy string in memory.
  *
  */
 char *_strdup(char *str)
@@ -31,10 +31,5 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-
-	/*if ((copy = _strdup(str) + 1) != NULL)
-	{i
-		return (copy);
-	}*/
 	return (copy);
 }
