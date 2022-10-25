@@ -11,10 +11,15 @@
 char *_strdup(char *str)
 {
 	unsigned int i, j, size = strlen(str);
-	char *s = malloc(sizeof(char) * size + 1);
+	char *copy = malloc(sizeof(char) * size + 1);
 
 	/* if str is null return null*/
 	if (str == NULL)
+	{
+		return (NULL);
+	}
+
+	if (copy == NULL)
 	{
 		return (NULL);
 	}
@@ -27,12 +32,7 @@ char *_strdup(char *str)
 	/*then store index j in str to copy*/
 	for (j = 0; j < size; j++)
 	{
-		s[j] = str[j];
+		copy[j] = str[j];
 	}
-
-	if (s == NULL)
-	{
-		return (NULL);
-	}
-	return (s);
+	return (copy);
 }
