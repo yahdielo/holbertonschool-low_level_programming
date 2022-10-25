@@ -2,11 +2,9 @@
 #include <string.h>
 #include "main.h"
 /**
- * create_array - creat array with value allocation of specific data type
- * @size: size of array
- * @c: value to allocate inside array
- * Return: a pointer to the array.
- *
+ * _strdup - fucntion to return the copy of str
+ * @str: string to manipulate
+ * Return: a pointer to the copy  array.
  */
 char *_strdup(char *str)
 {
