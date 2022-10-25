@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <string.h>
+#include <stdio.h>
 #include "main.h"
 /**
  * _strdup - function to get copy string.
@@ -15,6 +16,7 @@ char *_strdup(char *str)
 	/* if str is null return null*/
 	if (str == NULL)
 	{
+		printf("failed to allocate memory");
 		return (NULL);
 	}
 	/* variable runs inside array of chars str*/
