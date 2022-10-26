@@ -43,7 +43,7 @@ int **alloc_grid(int width, int height)
 
 	for (q = 0; q < height; q++)
 	{
-		for (z = 0; l < width; z++)
+		for (z = 0; z < width; z++)
 		{
 			doble[q][z] = 0;
 		}
