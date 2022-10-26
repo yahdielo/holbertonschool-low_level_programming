@@ -2,8 +2,9 @@
 #include <string.h>
 #include "main.h"
 /**
- * _strdup - function to get copy string.
- * @str: string to get the copy with amlloc.
+ * str_concat - function to get copy string.
+ * @s1: first strig
+ * @s2: second string
  * Return: a pointer to copy string in memory.
  *
  */
@@ -11,7 +12,7 @@ char *str_concat(char *s1, char *s2)
 {
 	int i, size1 = strlen(s1), size2 = strlen(s2);
 	int maxsize = size1 + size2;
-	char *concat = malloc(sizeof(char) * maxsize);
+	char *concat = malloc(sizeof(char) * maxsize + 1);
 
 	/* if one of the string is null return null*/
 	if (s1 == NULL || s2 == NULL)
