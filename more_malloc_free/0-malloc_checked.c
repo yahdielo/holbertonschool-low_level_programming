@@ -4,7 +4,7 @@
 /**
  * malloc_checked - functions to separate space
  * @b: value to safe the space for using malloc
- * Returnd: address to the index 0 of the array
+ * Return: address to the index 0 of the array
  */
 void *malloc_checked(unsigned int b)
 {
@@ -14,7 +14,7 @@ void *malloc_checked(unsigned int b)
 	/* check for malloc to not be null*/
 	if (p == NULL)
 	{
-		exit (98);	
+		exit (98);
 	}
 	return (p);
 }
