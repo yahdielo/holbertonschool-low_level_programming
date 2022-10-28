@@ -24,6 +24,11 @@ int *array_range(int min, int max)
 		len = max - min + 1;
 	}
 
+	if (min == 0)
+	{
+		len++;
+	}
+
 	ptr = malloc(sizeof(int) * len);
 
 	if (ptr == NULL)
