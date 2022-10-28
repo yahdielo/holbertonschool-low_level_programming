@@ -39,7 +39,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		}
 		for (i = 0; i < nmemb; i++)
 		{
-			ptr2[i] = '0';
+			ptr2[i] = 0;
 		}
 
 		return (ptr2);
