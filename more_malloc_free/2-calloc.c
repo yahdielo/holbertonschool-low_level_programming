@@ -16,21 +16,21 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 	}
 
-	if ( size == sizeof(char))
+	if (size == sizeof(char))
 	{
 		ptr1 = malloc(nmemb * size);
 		if (ptr1 == NULL)
 		{
 			return (NULL);
 		}
-		for (i = 0; i <nmemb; i++)
+		for (i = 0; i < nmemb; i++)
 		{
 			ptr1[i] = '0';
 		}
 		return (ptr1);
 	}
 
-	else 
+	else
 	{
 		ptr2 = malloc(nmemb * size);
 		if (ptr2 == NULL)
