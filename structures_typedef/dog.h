@@ -4,7 +4,7 @@
  * dog - struct dog, contains var of dog description
  *
  */
-struct dog 
+struct dog
 {
 	char *name;
 	float age;
