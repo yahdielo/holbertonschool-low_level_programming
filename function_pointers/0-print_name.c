@@ -7,6 +7,8 @@
 void print_name(char *name, void (*f)(char *))
 {
 
+	if (f == NULL)
+	{}
 	/*creat other pointer & initialize it*/
 	void (*p)(char *);
 
