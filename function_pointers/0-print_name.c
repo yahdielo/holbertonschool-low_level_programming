@@ -14,5 +14,5 @@ void print_name(char *name, void (*f)(char *))
 	p = f;
 
 	/*pointer points to fucntion and use char parameter to print*/
-	(*p) (*name);
+	(*p) (name);
 }
