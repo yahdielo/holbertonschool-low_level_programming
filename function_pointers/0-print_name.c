@@ -7,8 +7,8 @@
 void print_name(char *name, void (*f)(char *))
 {
 
-	if (f == NULL)
-	{}
+	if (f != NULL)
+	{
 	/*creat other pointer & initialize it*/
 	void (*p)(char *);
 
@@ -17,4 +17,5 @@ void print_name(char *name, void (*f)(char *))
 
 	/*pointer points to fucntion and use char parameter to print*/
 	(p) (name);
+	}
 }
