@@ -2,13 +2,13 @@
 /**
  * print_name - fucntion pointer to print apram
  * @name: parameter to print
- *
+ * @f: pointer to function with print logic
  */
 void print_name(char *name, void (*f)(char *))
 {
 
 	/*creat other pointer & initialize it*/
-	void (*p) (char *);
+	void (*p)(char *);
 
 	/* assing the valuo on old pointer to this one*/
 	p = f;
