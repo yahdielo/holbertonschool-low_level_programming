@@ -1,7 +1,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 /**
- * pint_strings - print string
+ * print_strings - print string
  * @separator: value to be printed between strings
  * @n: numbers of string pass to function
  *
