@@ -1,7 +1,10 @@
 #include <stdarg.h>
 #include <stdio.h>
 /**
- *
+ * print_number - print number in var n
+ * @separator: comma and spasce between numbers
+ * @; numbers of integers in the array
+ * Return: pointer list p
  *
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
