@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include "function_pointers.h"
 /**
- *
+ * int_index - function to compare index i in array
+ * @array: elemetns to compare
+ * @size: size of the array
+ * @cpm: function pointer
  *
  */
 int int_index(int *array, int size, int (*cmp)(int))
