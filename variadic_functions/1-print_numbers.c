@@ -1,7 +1,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 /**
- * print_number - print number in var n
+ * print_numbers - print number in var n
  * @separator: comma and spasce between numbers
  * @; numbers of integers in the array
  * Return: pointer list p
@@ -26,7 +26,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 			printf("%d", j);
 
-			if (i != n -1)
+			if (i != n - 1)
 			{
 				printf("%s", separator);
 			}
