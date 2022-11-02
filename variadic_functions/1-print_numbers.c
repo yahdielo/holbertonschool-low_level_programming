@@ -3,7 +3,7 @@
 /**
  * print_numbers - print number in var n
  * @separator: comma and spasce between numbers
- * @; numbers of integers in the array
+ * @n: numbers of integers in the array
  * Return: pointer list p
  *
  */
