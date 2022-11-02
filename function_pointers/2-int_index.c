@@ -4,9 +4,10 @@
  * int_index - function to compare index i in array
  * @array: elemetns to compare
  * @size: size of the array
- * @cpm: function pointer
+ * @cmp: function pointer
  *
- */
+ * Return: -1 if is null
+ */i
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i;
@@ -19,6 +20,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 	if (cmp != NULL)
 	{
 		int (*p)(int);
+
 		p = cmp;
 
 		for (i = 0; i < size; i++)
