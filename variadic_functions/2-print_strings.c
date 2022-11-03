@@ -26,7 +26,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 			if (j == NULL)
 			{
-				printf("nil");
+				printf("(nil)");
 			}
 
 			/*print argiments*/
@@ -34,7 +34,9 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 			/* if separator in null do nothing*/
 			if (separator == NULL)
-			{}
+			{
+				return;
+			}
 
 			if (i < n - 1)
 			{
