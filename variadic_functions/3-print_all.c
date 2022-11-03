@@ -3,7 +3,8 @@
 #include <string.h>
 #include "variadic_functions.h"
 /**
- *
+ * print_all - print all types inside the list
+ * @format: list of types passed to the fucntions
  *
  */
 void print_all(const char * const format, ...)
