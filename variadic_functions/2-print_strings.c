@@ -24,6 +24,11 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			/* retrive argument data*/
 			j = va_arg(p, char *);
 
+			if (j == NULL)
+			{
+				printf("nil");
+			}
+
 			/*print argiments*/
 			printf("%s", j);
 
