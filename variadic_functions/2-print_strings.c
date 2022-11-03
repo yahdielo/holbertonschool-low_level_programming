@@ -28,9 +28,11 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			{
 				printf("(nil)");
 			}
-
+			else
+			{
 			/*print argiments*/
 			printf("%s", j);
+			}
 
 			/* if separator in null do nothing*/
 
