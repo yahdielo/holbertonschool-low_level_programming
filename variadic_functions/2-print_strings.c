@@ -35,7 +35,6 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			/* if separator in null do nothing*/
 			if (separator == NULL)
 			{
-				return;
 			}
 
 			if (i < n - 1)
