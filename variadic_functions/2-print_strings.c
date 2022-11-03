@@ -36,7 +36,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 			if (i < n - 1)
 			{
-				else if (seprator != NULL)
+				if (seprator != NULL)
 				{
 				printf("%s", separator);
 				}
