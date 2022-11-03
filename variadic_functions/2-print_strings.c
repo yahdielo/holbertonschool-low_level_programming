@@ -14,6 +14,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	if (n != 0)
 	{
+
 		/* initialising argument n as value to list p*/
 		va_start(p, n);
 
@@ -36,6 +37,10 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			}
 		}
 
+	}
+	else
+	{
+		printf("nil");
 	}
 	va_end(p);
 	printf("\n");
