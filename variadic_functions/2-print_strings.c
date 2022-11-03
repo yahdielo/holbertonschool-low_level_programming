@@ -33,13 +33,13 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			printf("%s", j);
 
 			/* if separator in null do nothing*/
-			if (separator == NULL)
-			{
-			}
 
 			if (i < n - 1)
 			{
+				else if (seprator != NULL)
+				{
 				printf("%s", separator);
+				}
 			}
 		}
 
