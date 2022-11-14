@@ -1,3 +1,5 @@
+#ifdef 	SINGLY_LINKED_LISTS
+#define SINGLY_LINKED_LISTS
 #include <stddef.h>
 /**
  * struct list_s - singly linked list
@@ -15,4 +17,4 @@ typedef struct list_s
 } list_t;
 
 size_t print_list(const list_t *h);
-
+#endif
