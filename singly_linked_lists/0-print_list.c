@@ -1,8 +1,9 @@
 #include "lists.h"
 #include <stdio.h>
 /**
- *
- *
+ * print_list - fucntion to  print a list of elements
+ * @h: is the pointer to the strings in the list elements
+ * Return: count
  */
 size_t print_list(const list_t *h)
 {
@@ -15,7 +16,7 @@ size_t print_list(const list_t *h)
 		{
 			printf("(nil) \n");
 		}
-		else 
+		else
 		{
 		printf("%s \n", h->str);
 		}
