@@ -8,11 +8,11 @@
  */
 size_t list_len(const list_t *h)
 {
-	int maxlen;
+	int maxlen = 0;
 
 	while (h != NULL)
 	{
-		maxlen = h->len;
+		maxlen++;
 		h = h->next;
 	}
 	return (maxlen);
