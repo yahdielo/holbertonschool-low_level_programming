@@ -16,10 +16,8 @@ list_t *add_node(list_t **head, const char *str)
 	/*new struct declare*/
 	list_t *newhead = malloc(sizeof(list_t));
 
-	/*separate new memory for newhead node*/
-	doble = malloc(sizeof(strdup(str)));
 
-	while (newhead == NULL || doble == NULL)
+	if (newhead == NULL || doble == NULL)
 	{
 		free(newhead);
 		return (NULL);
