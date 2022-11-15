@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <string.h>
+#include <stdlib.h>
 #include <stdio.h>
 /**
  * add_node - fujnction to add a new node as a head
@@ -15,17 +17,17 @@ list_t *add_node(list_t **head, const char *str)
 	list_t *newhead = malloc(sizeof(list_t));
 
 	/*separate new memory for newhead node*/
-	doble = malloc(sizeof(strdup(str)char));
+	doble = malloc(sizeof(strdup(str)));
 
-	while (newhead == NULL || dup == NULL)
+	while (newhead == NULL || doble == NULL)
 	{
-		free(newnode);
+		free(newhead);
 		return (NULL);
 	}
 
 	/*store new value at specific variable in the newstruct*/
-	newhead->str = dup;
-	newhead->len = strlen(dup);
+	newhead->str = doble;
+	newhead->len = strlen(doble);
 	newhead->next = *head;
 
 	*head = newhead;
