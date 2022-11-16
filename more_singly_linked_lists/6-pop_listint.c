@@ -2,7 +2,6 @@
 /**
  * pop_listint - delet node and return inst data
  * @head: pointer to head node
- * @Return: data of head node
  *
  */
 int pop_listint(listint_t **head)
@@ -14,7 +13,7 @@ int pop_listint(listint_t **head)
 	{
 		return (0);
 	}
-	
+
 	/* store head pointer in temp*/
 	/* then in struct temp store n data inside variable*/
 	/* the store next in head pointer*/
@@ -22,6 +21,6 @@ int pop_listint(listint_t **head)
 	head_data = temp->n;
 	*head = (*head)->next;
 
-	free (temp);
+	free(temp);
 	return (head_data);
 }
