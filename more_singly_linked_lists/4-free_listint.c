@@ -13,7 +13,6 @@ void free_listint(listint_t *head)
 	{
 		newnode = head;
 		head = newnode->next;
-		free(newnode->str);
 		free(newnode);
 	}
 }
