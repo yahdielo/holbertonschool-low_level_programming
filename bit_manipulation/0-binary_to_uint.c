@@ -25,7 +25,7 @@ unsigned int binary_to_uint(const char *b)
 			val += b[i] - '0';
 			i++;
 		}
-		else 
+		else
 			return (0);
 	}
 
