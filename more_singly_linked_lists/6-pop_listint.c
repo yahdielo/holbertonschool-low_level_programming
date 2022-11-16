@@ -1,6 +1,8 @@
 #include "lists.h"
 /**
- *
+ * pop_listint - delet node and return inst data
+ * @head: pointer to head node
+ * @Return: data of head node
  *
  */
 int pop_listint(listint_t **head)
