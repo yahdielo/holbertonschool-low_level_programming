@@ -2,6 +2,7 @@
 /**
  * pop_listint - delet node and return inst data
  * @head: pointer to head node
+ * Return: value of head data ones freed
  *
  */
 int pop_listint(listint_t **head)
