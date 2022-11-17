@@ -5,7 +5,7 @@
  */
 int sum(listint_t *head)
 {
-	int sum = 0;
+	int add = 0;
 
 	listint_t *current_node = head;
 
@@ -20,7 +20,7 @@ int sum(listint_t *head)
 		sum += current_node->n;
 	}
 
-	return (sum);
+	return (add);
 
 
 }
