@@ -1,9 +1,10 @@
 #include "lists.h"
 /**
- *
- *
+ * sum_listint - sum all the nodes data
+ * @head: pointer to head node
+ * Return: the addintion of all the data
  */
-int sum(listint_t *head)
+int sum_listint(listint_t *head)
 {
 	int add = 0;
 
@@ -14,10 +15,10 @@ int sum(listint_t *head)
 		return (0);
 	}
 
-	if (current_node != NULL)
+	while (current_node != NULL)
 	{
+		add = add + current_node->n;
 		current_node = current_node->next;
-		sum += current_node->n;
 	}
 
 	return (add);
