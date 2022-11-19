@@ -10,9 +10,12 @@ int main(int argc, char *argv[])
 {
 	int i, add;
 
-	for (i = 0; i < argc; i++)
+	if (argv[i] > '0' || argv[i] < '9')
 	{
-		add += atoi(argv[i]);
+		for (i = 0; i < argc; i++)
+		{
+			add += atoi(argv[i]);
+		}
 	}
 	printf("%d\n", add);
 	return (0);

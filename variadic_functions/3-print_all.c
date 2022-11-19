@@ -23,15 +23,12 @@ void print_all(const char * const format, ...)
 			case 'c':
 				printf("%c", va_arg(p, int));
 				break;
-
 			case 'i':
 				printf("%i", va_arg(p, int));
 				break;
-
 			case 'f':
 				printf("%f", va_arg(p, double));
 				break;
-
 			case 's':
 			str = va_arg(p, char *);
 			if (str == NULL)
