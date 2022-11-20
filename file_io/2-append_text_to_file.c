@@ -28,7 +28,7 @@ int append_text_to_file(const char *filename, char *text_content)
 	}
 	else
 	{
-		close(fd);
+		fd = open(filename, O_RDWR, 0600);
 	}
 
 	close(fd);
