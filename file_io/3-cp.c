@@ -1,43 +1,34 @@
 #include "main.h"
 /**
- *
- *
+ * main - copie content of one file to another
+ * Return: copy of file content to another
  */
-int main(int argc ,char *argv[])
+int main(void)
 {
-	int fd1, fd2;
-       	char *buf[1024];
+	FILE *fd1, *fd2;
+	char ch;
 
-	/* if number of arguments is not correct exit 97*/
-	if (argc != 3)
+	fd1 = fopen("file_from", "r");
+
+	if (fd1 == NULL)
 	{
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 		exit(97);
 	}
 
-	fd1 = open(argv[1], O_RDONLY);
+	fd2 = fopen("file_to", "w");
 
-	/* if file_from does not exist exit 98*/
-	if (argv[1] == NULL)
+	if (fd2 == NULL)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't read from file NAME_OF_THE_FILE\n");
-		exit (98);
+		dprintf(STDERR_FILENO, "ERROR: Can't read from file\n");
+		exit(98);
 	}
 
-	fd2 = open(argv[2], O_WRONLY);
-
-	if (argv[2] == NULL)
+	while ((ch = fgetc(fd1)) != EOF)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't write to NAME_OF_THE_FILE\n");
-		exit(99);
+		fputc(ch, fd2);
 	}
-
-	while (1)
-	{
-		read(fd1, buf, 1024);
-		write(fd2, buf, 1024);
-	}
-	close(fd1);
-	close(fd2);
+	fclose(fd1);
+	fclose(fd2);
 	return (0);
 }
