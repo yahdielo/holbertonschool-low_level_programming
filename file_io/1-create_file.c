@@ -9,12 +9,13 @@
 int create_file(const char *filename, char *text_content)
 {
 	int fd;
-	char buf = strlen(text_content);
+	int buf = strlen(text_content);
 
 	if (filename == NULL)
 	{
 		return (-1);
 	}
+
 	fd = open(filename, O_CREAT, 0600);
 
 	if (fd == -1)
