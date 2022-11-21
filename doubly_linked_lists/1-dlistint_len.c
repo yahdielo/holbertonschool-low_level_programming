@@ -1,6 +1,7 @@
 #include "lists.h"
 /**
- * dlistint_t - return numbers of elements in list
+ * dlistint_len - return numbers of elements in list
+ * @h: pointer to  node element
  * Return: count of elements
  */
 size_t dlistint_len(const dlistint_t *h)
