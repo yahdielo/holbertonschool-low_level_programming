@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
-	fd2 = open(argv[2], O_WRONLY);
+	fd2 = open(argv[2], O_WRONLY | O_TRUNC, 0644);
 
 	if (argv[2] == NULL)
 	{
@@ -40,7 +40,16 @@ int main(int argc, char *argv[])
 		read(fd1, buf, 1024);
 		write(fd2, buf, 1024);
 	}
-	close(fd1);
-	close(fd2);
+	
+	if (fd1 == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %i\n", fd1);
+		exit(100);
+	}
+	if (fd2 == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %i\n", fd2);
+		exit(100);
+	}
 	return (0);
 }
