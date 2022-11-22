@@ -11,7 +11,7 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 	unsigned int count = 0;
 	dlistint_t *newnode = head;
 
-	if (index == 0)
+	if (index == NULL)
 	{
 		return (head);
 	}
