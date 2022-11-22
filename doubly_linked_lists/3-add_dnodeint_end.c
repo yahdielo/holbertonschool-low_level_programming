@@ -1,12 +1,16 @@
 #include "lists.h"
 /**
- * add_dnodeint_end - 
+ * add_dnodeint_end - add new node a tthe end
+ * @head: pointer to struct
+ * @n: struct data
+ * Return: newnode
  *
  */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 	dlistint_t *newnode = malloc(sizeof(dlistint_t));
 	dlistint_t *last = *head;
+
 	newnode->n = n;
 	newnode->next = NULL;
 
