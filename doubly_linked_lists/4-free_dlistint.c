@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  * free_dlistint - free node list
- * *head: pointer to stuct
+ * head: pointer to stuct
  * Return: free new node
  */
 void free_dlistint(dlistint_t *head)
