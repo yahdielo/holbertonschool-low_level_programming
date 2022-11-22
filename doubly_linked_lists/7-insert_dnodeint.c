@@ -2,6 +2,7 @@
 /**
  * insert_dnodeint_at_index - insert node at t given index
  * @idx: index where node need to be located
+ * @h: pointer to head
  * @n: node data
  * Return: return newnode
  */
@@ -27,12 +28,12 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	{
 		return (NULL);
 	}
-	
+
 	while (after != NULL)
 	{
 		count++;
 		after = after->next;
-		if ( idx == count)
+		if (idx == count)
 		{
 			before = after->prev;
 			newnode->next = after;
