@@ -1,0 +1,17 @@
+#include "hash_tables.h"
+/**
+ *
+ */
+void hash_table_print(const hash_table_t *ht)
+{
+	unsigned long i;
+
+	/*to print hash table i need a loop to iterate inside and print ,e the node values*/
+	while (ht == NULL)
+	{
+	}
+	for (i = 0; i < ht->size; i++)
+	{
+		printf("%s : %s\n", ht->array[i]->key, ht->array[i]->value);
+	}
+}
