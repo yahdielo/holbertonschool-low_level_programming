@@ -13,11 +13,11 @@ void hash_table_print(const hash_table_t *ht)
 		return;
 	}
 
-	/*to print hash table i need a loop to iterate inside and print ,e the node values*/
+	/*to print hash table i need a loop to iterate inside*/
 	for (i = 0; i < ht->size; i++)
 	{
 		node = ht->array[i];
-	
+
 		if (node != NULL)
 		{
 			printf("'%s' : '%s'", node->key, node->value);
